@@ -25,7 +25,7 @@ os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash runocrservice.sh")
 ```
 three sample `React`, `Django`, `pure Python` applications.
 
-but before using this part you have to make `.sh` bash files to run the apps for this simply execute:
+but before using this part you have to make `.sh` bash files to run the apps, for this simply execute:
 ```bash
 nano rundjango.sh
 ```
