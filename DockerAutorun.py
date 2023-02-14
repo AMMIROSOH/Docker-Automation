@@ -31,10 +31,10 @@ containerIsRunning = os.popen("docker start " + CONTAINER_ID).read()
 if containerIsRunning == CONTAINER_ID+'\n':
     print(f"Docker Container {CONTAINER_ID} is running.")
 
-# Starting custom apps
-os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash rundjango.sh")
-os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash rundreact.sh")
-os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash runocrservice.sh")
+# # Starting custom apps
+# os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash rundjango.sh")
+# os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash rundreact.sh")
+# os.system(f"start cmd /k docker exec -it {CONTAINER_ID} bash runocrservice.sh")
 
 # Listening for Exit
 while True:
