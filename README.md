@@ -59,3 +59,4 @@ now you can use your application with only one click on `AutoRun.bat`.
 and type `exit` in lowercase to stop the whole container.
 
 👉 if you just close the console, container and it apps will continue running and you most rerun the `.bat` file to close all apps and running instances of container then entering `exit` again to fully close the application.
+👉 move autorun to a safe directory and send a shortcut of `.bat` file to desktop for users.
